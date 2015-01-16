@@ -64,4 +64,9 @@ def test_std7():
     exp = NotImplemented
     assert_equal(obs, exp)
 
+def test_median():
+    obs = [3,4,5]
+    exp = 4.0
+	assert_equal(obs, exp)
+# testing	
 # FIXME Put Variance tests here

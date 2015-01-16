@@ -18,7 +18,6 @@ def median(vals):
        return mean([vals[index], vals[index - 1]])
     else:
        return vals[index]
-	 
 def mode(vals):
     """Computes the mode from a list of values."""
     pass
